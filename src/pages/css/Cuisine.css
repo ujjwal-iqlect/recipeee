@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.cuisine-card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.cuisine-card a {
+  text-decoration: none;
+}
+
+.cuisine-card h4 {
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 545px) {
+  .grid {
+    margin: 0 3%;
+  }
+}

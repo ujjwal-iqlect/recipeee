@@ -1,0 +1,101 @@
+.detail-wrapper {
+  margin: 10rem 0 5rem 0;
+  display: flex;
+}
+
+.detail-wrapper button.active {
+  background: linear-gradient(35deg, #494949, #313131);
+  color: #fff;
+}
+
+.detail-wrapper h2 {
+  text-align: center;
+}
+
+.detail-wrapper h5 {
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.detail-wrapper h4 {
+  margin-bottom: 2rem;
+}
+
+.detail-wrapper li {
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+
+ul {
+  margin-top: 2rem;
+}
+
+.detail-wrapper button {
+  padding: 1rem 2rem;
+  color: #313131;
+  background: #fff;
+  margin-right: 2rem;
+  font-weight: 600;
+  border: 2px solid black;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.info {
+  margin-left: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .detail-wrapper {
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-wrapper h2 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  .detail-wrapper-showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail-wrapper-showcase img {
+    width: 90%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .btn-container {
+    display: flex;
+  }
+
+  .detail-wrapper h5 {
+    font-size: 0.9rem;
+  }
+
+  .detail-wrapper h5 {
+    font-size: 0.95rem;
+  }
+
+  .detail-wrapper button {
+    padding: 0.5rem 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .detail-wrapper button {
+    padding: 0.3rem 0.3rem;
+  }
+}

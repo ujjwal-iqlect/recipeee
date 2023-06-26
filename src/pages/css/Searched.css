@@ -1,0 +1,26 @@
+.searched-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.searched-card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.searched-card a {
+  text-decoration: none;
+}
+
+.searched-card h4 {
+  text-align: center;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .searched-grid {
+    margin: 0 3%;
+    grid-gap: 1rem;
+  }
+}

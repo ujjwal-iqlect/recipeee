@@ -1,0 +1,51 @@
+.veggie-wrapper {
+  margin: 4rem 1rem;
+}
+
+.veggie-card {
+  min-height: 14rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.veggie-card img {
+  border-radius: 1rem;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.veggie-card p {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .veggie-wrapper h3 {
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .veggie-wrapper h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
